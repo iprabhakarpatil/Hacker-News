@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E30B3862110E281005F0641 /* MovieListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E30B3852110E280005F0641 /* MovieListTableViewCell.swift */; };
+		4E30B3DB21123E42005F0641 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E30B3DA21123E42005F0641 /* Extensions.swift */; };
 		4EFD4B1B210C43D2001B4DF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD4B1A210C43D2001B4DF2 /* AppDelegate.swift */; };
-		4EFD4B1D210C43D2001B4DF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD4B1C210C43D2001B4DF2 /* ViewController.swift */; };
+		4EFD4B1D210C43D2001B4DF2 /* MostViewedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD4B1C210C43D2001B4DF2 /* MostViewedVC.swift */; };
 		4EFD4B20210C43D2001B4DF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFD4B1E210C43D2001B4DF2 /* Main.storyboard */; };
 		4EFD4B22210C43D3001B4DF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EFD4B21210C43D3001B4DF2 /* Assets.xcassets */; };
 		4EFD4B25210C43D3001B4DF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFD4B23210C43D3001B4DF2 /* LaunchScreen.storyboard */; };
+		4EFD4B2D210C47A7001B4DF2 /* MostRecentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD4B2C210C47A7001B4DF2 /* MostRecentVC.swift */; };
+		4EFD4B2F210C47BE001B4DF2 /* TopRatedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD4B2E210C47BE001B4DF2 /* TopRatedVC.swift */; };
+		4EFD4B31210C6190001B4DF2 /* NetworkingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD4B30210C6190001B4DF2 /* NetworkingLayer.swift */; };
+		4EFD4B33210C66FB001B4DF2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD4B32210C66FB001B4DF2 /* Constants.swift */; };
+		4EFD4B35210C6EBD001B4DF2 /* MostViewedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD4B34210C6EBD001B4DF2 /* MostViewedTableViewCell.swift */; };
+		4EFD4B37210E3FE9001B4DF2 /* ViewCommentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EFD4B36210E3FE8001B4DF2 /* ViewCommentsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E30B3852110E280005F0641 /* MovieListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTableViewCell.swift; sourceTree = "<group>"; };
+		4E30B3DA21123E42005F0641 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		4EFD4B17210C43D2001B4DF2 /* Hacker News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hacker News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EFD4B1A210C43D2001B4DF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4EFD4B1C210C43D2001B4DF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EFD4B1C210C43D2001B4DF2 /* MostViewedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostViewedVC.swift; sourceTree = "<group>"; };
 		4EFD4B1F210C43D2001B4DF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EFD4B21210C43D3001B4DF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EFD4B24210C43D3001B4DF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EFD4B26210C43D3001B4DF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EFD4B2C210C47A7001B4DF2 /* MostRecentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostRecentVC.swift; sourceTree = "<group>"; };
+		4EFD4B2E210C47BE001B4DF2 /* TopRatedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedVC.swift; sourceTree = "<group>"; };
+		4EFD4B30210C6190001B4DF2 /* NetworkingLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingLayer.swift; sourceTree = "<group>"; };
+		4EFD4B32210C66FB001B4DF2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4EFD4B34210C6EBD001B4DF2 /* MostViewedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostViewedTableViewCell.swift; sourceTree = "<group>"; };
+		4EFD4B36210E3FE8001B4DF2 /* ViewCommentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCommentsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +71,19 @@
 			isa = PBXGroup;
 			children = (
 				4EFD4B1A210C43D2001B4DF2 /* AppDelegate.swift */,
-				4EFD4B1C210C43D2001B4DF2 /* ViewController.swift */,
+				4EFD4B1C210C43D2001B4DF2 /* MostViewedVC.swift */,
+				4EFD4B36210E3FE8001B4DF2 /* ViewCommentsVC.swift */,
+				4EFD4B34210C6EBD001B4DF2 /* MostViewedTableViewCell.swift */,
+				4EFD4B32210C66FB001B4DF2 /* Constants.swift */,
+				4EFD4B30210C6190001B4DF2 /* NetworkingLayer.swift */,
+				4EFD4B2C210C47A7001B4DF2 /* MostRecentVC.swift */,
+				4EFD4B2E210C47BE001B4DF2 /* TopRatedVC.swift */,
+				4E30B3852110E280005F0641 /* MovieListTableViewCell.swift */,
 				4EFD4B1E210C43D2001B4DF2 /* Main.storyboard */,
 				4EFD4B21210C43D3001B4DF2 /* Assets.xcassets */,
 				4EFD4B23210C43D3001B4DF2 /* LaunchScreen.storyboard */,
 				4EFD4B26210C43D3001B4DF2 /* Info.plist */,
+				4E30B3DA21123E42005F0641 /* Extensions.swift */,
 			);
 			path = "Hacker News";
 			sourceTree = "<group>";
@@ -135,8 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EFD4B1D210C43D2001B4DF2 /* ViewController.swift in Sources */,
+				4EFD4B1D210C43D2001B4DF2 /* MostViewedVC.swift in Sources */,
+				4EFD4B37210E3FE9001B4DF2 /* ViewCommentsVC.swift in Sources */,
+				4EFD4B35210C6EBD001B4DF2 /* MostViewedTableViewCell.swift in Sources */,
+				4EFD4B2D210C47A7001B4DF2 /* MostRecentVC.swift in Sources */,
+				4EFD4B31210C6190001B4DF2 /* NetworkingLayer.swift in Sources */,
+				4E30B3DB21123E42005F0641 /* Extensions.swift in Sources */,
 				4EFD4B1B210C43D2001B4DF2 /* AppDelegate.swift in Sources */,
+				4EFD4B2F210C47BE001B4DF2 /* TopRatedVC.swift in Sources */,
+				4E30B3862110E281005F0641 /* MovieListTableViewCell.swift in Sources */,
+				4EFD4B33210C66FB001B4DF2 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +312,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UB87DZA497;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Hacker News/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -289,6 +321,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Prabhakar.Hacker-News";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,8 +331,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UB87DZA497;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Hacker News/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +340,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Prabhakar.Hacker-News";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
